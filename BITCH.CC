@@ -506,12 +506,12 @@ local function initializeToggleButton(screenGui)
     local button = Instance.new("TextButton")
     button.Size = UDim2.new(0, 100, 0, 60)
     button.Position = UDim2.new(1, -100, 0, 80)
-    button.Text = "Geek/Vr Gui"
+    button.Text = "UI"
     button.Font = Enum.Font.SourceSansBold
     button.TextSize = 14
     button.BackgroundColor3 = Color3.new(0, 0, 0)
-    button.BackgroundTransparency = 1
-    button.TextColor3 = Color3.new(1, 1, 1)
+    button.BackgroundTransparency = 0.5
+    button.TextColor3 = Color3.new(255, 5, 85)
     button.BorderSizePixel = 0
 
     button.ClipsDescendants = true
